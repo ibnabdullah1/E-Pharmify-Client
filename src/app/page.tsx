@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import HomePage from "./home/page";
+import LoginForm from "./login/page";
 
 const Page = () => {
   const router = useRouter();
@@ -13,7 +13,7 @@ const Page = () => {
 
   return (
     <div>
-      <HomePage />
+      <LoginForm />
     </div>
   );
 };
