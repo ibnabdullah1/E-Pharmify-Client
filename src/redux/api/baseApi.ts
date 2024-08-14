@@ -4,7 +4,7 @@ import { logout, setUser } from "../features/auth/authSlice";
 import { RootState } from "../features/store";
 
 const baseQuery = fetchBaseQuery({
-  // baseUrl: process.env.VITE_API_URL,
+  // baseUrl: "http://localhost:4000/api/v1",
   baseUrl: "https://e-pharmify-server.vercel.app/api/v1",
 
   credentials: "include",

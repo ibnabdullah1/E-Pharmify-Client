@@ -1,8 +1,8 @@
 "use client";
 
+import Loader from "@/components/Common/Loader";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import LoginForm from "./login/page";
 
 const Page = () => {
   const router = useRouter();
@@ -13,7 +13,7 @@ const Page = () => {
 
   return (
     <div>
-      <LoginForm />
+      <Loader />
     </div>
   );
 };

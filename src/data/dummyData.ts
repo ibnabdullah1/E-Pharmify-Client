@@ -1,3 +1,4 @@
+import { Districts } from "@/types/type";
 import brandImage1 from "../../public/images/brands/airbnb.png";
 import brandImage2 from "../../public/images/brands/cisco.png";
 import brandImage3 from "../../public/images/brands/ebay.png";
@@ -288,7 +289,7 @@ export const divisions = [
   { id: 8, name: "Mymensingh" },
 ];
 
-export const districts = {
+export const districts: Districts = {
   Dhaka: [
     {
       id: 1,

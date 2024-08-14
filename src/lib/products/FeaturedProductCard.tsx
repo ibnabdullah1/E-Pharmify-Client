@@ -1,9 +1,9 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 import Rating from "react-rating";
-
-const ProductCard = ({ product }: any) => {
+const FeaturedProductCard = ({ product }: any) => {
   return (
     <div className=" border rounded group">
       <div className="relative  w-full h-[150px] rounded-md overflow-hidden">
@@ -88,4 +88,4 @@ const ProductCard = ({ product }: any) => {
   );
 };
 
-export default ProductCard;
+export default FeaturedProductCard;

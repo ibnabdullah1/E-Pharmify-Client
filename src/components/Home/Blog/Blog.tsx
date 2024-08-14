@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Blog = () => {
   return (
     <div>
-      <div className="px-4 pt-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="px-4 pt-8 mx-auto lg:max-w-6xl  lg:px-8">
         <h2 className="font-display text-center text-4xl mb-4 font-semibold text-teal-500 tracking-wide">
           Our Latest News
         </h2>
@@ -12,7 +12,7 @@ const Blog = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
           dolorem.
         </p>
-        <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+        <div className="grid gap-4 lg:gap-8 md:grid-cols-2 lg:grid-cols-3 ">
           <div
             style={{ boxShadow: "0px 0px 7px 7px rgba(0, 0, 0, 0.03)" }}
             className="overflow-hidden  duration-300 bg-white rounded "

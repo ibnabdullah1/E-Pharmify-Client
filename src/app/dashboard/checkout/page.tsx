@@ -1,4 +1,5 @@
 "use client";
+import { districts, divisions } from "@/data/dummyData";
 import { selectCurrentUser } from "@/redux/features/auth/authSlice";
 import { clearCart } from "@/redux/features/cart/cartSlice";
 import { useOrderMutation } from "@/redux/features/order/orderApi";
@@ -10,7 +11,7 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 
-const Checkout = ({ districts, divisions }: any) => {
+const Checkout = () => {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     address: "",
@@ -22,7 +23,6 @@ const Checkout = ({ districts, divisions }: any) => {
 
   const [availableDistricts, setAvailableDistricts] = useState<District[]>([]);
   const [availableUpazilas, setAvailableUpazilas] = useState<string[]>([]);
-
   const cartItems = useSelector((state: RootState) => state.cart.items);
   const [order] = useOrderMutation();
   const dispatch = useDispatch();
@@ -170,7 +170,7 @@ const Checkout = ({ districts, divisions }: any) => {
                     required
                   >
                     <option value="">Select Division</option>
-                    {divisions.map((division: any) => (
+                    {divisions?.map((division: any) => (
                       <option key={division.id} value={division.name}>
                         {division.name}
                       </option>
@@ -195,7 +195,7 @@ const Checkout = ({ districts, divisions }: any) => {
                     disabled={!formData.division}
                   >
                     <option value="">Select District</option>
-                    {availableDistricts.map((district) => (
+                    {availableDistricts?.map((district) => (
                       <option key={district.id} value={district.name}>
                         {district.name}
                       </option>

@@ -14,14 +14,14 @@ interface adsType {
 
 function AdsCard({ title, subTitle, image }: adsType) {
   return (
-    <div className="relative  h-[450px]">
+    <div className="relative rounded h-[450px]">
       <Image
-        className=" object-cover h-full w-full"
+        className=" object-cover h-full w-full rounded"
         src={image}
         alt={title}
         layout="fill"
       />
-      <div className="absolute inset-0 bg-[#3333336d]  overflow-hidden" />
+      <div className="absolute inset-0 bg-primary/30  overflow-hidden rounded" />
       <div className="absolute top-3 py-4 text-center flex flex-col w-full">
         <div className="absolute top-3 py-4 pr-4 flex flex-col text-right w-full space-y-3">
           <h1 className="text-[#ffffff] mt-1 text-4xl md:text-5xl lg:text-4xl font-bold pl-8">
@@ -30,7 +30,7 @@ function AdsCard({ title, subTitle, image }: adsType) {
           <h2 className="text-xl text-[#ffffff]">{subTitle}</h2>
 
           <div className="flex justify-end">
-            <button className="mt-3 rounded-full bg-[#14B8A690] duration-500 hover:bg-primary text-white font-semibold px-6 py-2">
+            <button className="mt-3 rounded-full hover:bg-[#f5fffe] duration-300 bg-white text-primary font-semibold px-6 py-2">
               Shop now
             </button>
           </div>
@@ -41,14 +41,14 @@ function AdsCard({ title, subTitle, image }: adsType) {
 }
 function AdsCard2({ title, subTitle, image }: adsType) {
   return (
-    <div className="relative  h-[300px]">
+    <div className="relative  h-[300px] rounded">
       <Image
-        className=" object-cover h-full w-full"
+        className=" object-cover rounded h-full w-full"
         src={image}
         alt={title}
         layout="fill"
       />
-      <div className="absolute inset-0 bg-[#3333336d]  overflow-hidden" />
+      <div className="absolute rounded inset-0 bg-primary/30  overflow-hidden" />
       <div className="absolute top-3 py-4 text-center flex flex-col w-full">
         <div className="absolute top-3 py-4 pr-4 flex flex-col text-right w-full space-y-2">
           <h1 className="text-[#ffffff] mt-1 text-4xl md:text-5xl lg:text-4xl font-bold pl-8">
@@ -56,7 +56,7 @@ function AdsCard2({ title, subTitle, image }: adsType) {
           </h1>
           <h2 className="text-xl text-[#ffffff]">{subTitle}</h2>
           <div className="flex justify-end">
-            <button className="mt-3 rounded-full bg-[#14B8A690] duration-500 hover:bg-primary text-white font-semibold px-6 py-2">
+            <button className="mt-3 rounded-full hover:bg-[#f5fffe] duration-300 bg-white text-primary font-semibold px-6 py-2">
               Shop now
             </button>
           </div>
@@ -68,7 +68,7 @@ function AdsCard2({ title, subTitle, image }: adsType) {
 
 const Offers = () => {
   return (
-    <div className="max-w-7xl lg:px-10 mx-auto space-y-5 py-20 px-5">
+    <div className="max-w-7xl lg:px-10 mx-auto space-y-5 py-20 px-0">
       <div className=" gap-5  grid lg:grid-cols-3  grid-cols-1">
         <AdsCard
           title="SPECIAL OFFERS ON"
