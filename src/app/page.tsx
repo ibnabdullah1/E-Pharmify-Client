@@ -1,9 +1,21 @@
-const page = () => {
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+import HomePage from "./home/page";
+
+const Page = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/home");
+  }, [router]);
+
   return (
     <div>
-      <h1>This is page Component</h1>
+      <HomePage />
     </div>
   );
 };
 
-export default page;
+export default Page;
