@@ -21,7 +21,7 @@ function AdsCard({ title, subTitle, image }: adsType) {
         alt={title}
         layout="fill"
       />
-      <div className="absolute inset-0 bg-primary/30  overflow-hidden rounded" />
+      {/* <div className="absolute inset-0 bg-primary/30  overflow-hidden rounded" /> */}
       <div className="absolute top-3 py-4 text-center flex flex-col w-full">
         <div className="absolute top-3 py-4 pr-4 flex flex-col text-right w-full space-y-3">
           <h1 className="text-[#ffffff] mt-1 text-4xl md:text-5xl lg:text-4xl font-bold pl-8">
@@ -48,7 +48,7 @@ function AdsCard2({ title, subTitle, image }: adsType) {
         alt={title}
         layout="fill"
       />
-      <div className="absolute rounded inset-0 bg-primary/30  overflow-hidden" />
+      {/* <div className="absolute rounded inset-0 bg-primary/30  overflow-hidden" /> */}
       <div className="absolute top-3 py-4 text-center flex flex-col w-full">
         <div className="absolute top-3 py-4 pr-4 flex flex-col text-right w-full space-y-2">
           <h1 className="text-[#ffffff] mt-1 text-4xl md:text-5xl lg:text-4xl font-bold pl-8">

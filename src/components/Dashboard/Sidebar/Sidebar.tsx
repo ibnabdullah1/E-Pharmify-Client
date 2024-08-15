@@ -59,12 +59,12 @@ const Sidebar = ({ isActive }: any) => {
             <MenuItem
               icon={AiFillProduct}
               label="Products"
-              address="/products"
+              address="/home/products"
             />
             <MenuItem
               icon={RiContactsLine}
               label="Contact"
-              address="/contact-us"
+              address="/home/contact-us"
             />
           </nav>
         </div>

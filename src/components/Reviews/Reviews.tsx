@@ -13,7 +13,11 @@ export default function Reviews() {
   return (
     <div className="max-w-6xl mx-auto py-16 px-4">
       <div className="flex justify-between items-start">
-        <h2 className="heading">Client Reviews</h2>
+        <div className="text-center mb-8">
+          <h1 className="sub-heading">reviews</h1>
+
+          <h2 className="heading">What Our Clients Say</h2>
+        </div>
 
         <div className="flex justify-end gap-2 ">
           <button className="swiper-button-prev button text-xl p-2 rounded-full border">

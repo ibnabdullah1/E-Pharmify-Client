@@ -3,139 +3,39 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Blog = () => {
   return (
-    <div>
-      <div className="px-4 pt-8 mx-auto lg:max-w-6xl  lg:px-8">
-        <h2 className="font-display text-center text-4xl mb-4 font-semibold text-teal-500 tracking-wide">
-          Our Latest News
-        </h2>
+    <div className="bg-white">
+      <div className="px-4 py-8 mx-auto lg:max-w-6xl  lg:px-8">
+        <h1 className="mx-auto sub-heading">blogs</h1>
+        <h2 className="heading text-center">Recent Updation</h2>
         <p className="font-sans text-center mb-12 text-gray-700">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-          dolorem.
+          Accumsan lacus vel facilisis volutpat est velit egestas dui id.
+          Adipiscing elit duis tristique sollicitudin nibh sit amet commodo.
         </p>
-        <div className="grid gap-4 lg:gap-8 md:grid-cols-2 lg:grid-cols-3 ">
-          <div
-            style={{ boxShadow: "0px 0px 7px 7px rgba(0, 0, 0, 0.03)" }}
-            className="overflow-hidden  duration-300 bg-white rounded "
-          >
-            <Image
-              width={1200}
-              height={100}
-              src="https://wpbingosite.com/wordpress/fuho/wp-content/uploads/2018/05/blog-1-720x484.jpg"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 mb-4">
-              <p className="mb-3 text-xs font-semibold font-sans tracking-wide uppercase pb-4 border-b border-gray-300 ">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-teal-500 hover:text-teal-accent-700 border-r border-gray-300 pr-4"
-                  aria-label="Category"
-                  title="date"
-                >
-                  28 Jan 2021
-                </a>
-                <span className="text-gray-600 px-4">4 comments</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Visit the East"
-                className="inline-block mb-3 text-2xl font-display font-medium pt-3 leading-5 transition-colors duration-200 text-gray-700"
-              >
-                Travelling Solo Is Awesome
-              </a>
-              <p className="mb-2 text-gray-700 pb-4">
-                Solo travel gives you a chance to listen to your gut and control
-                what direction you want to head gut and control.
-              </p>
-              <button className="bg-teal-300 px-4 flex items-center gap-1 py-1 rounded-sm tracking-wide text-white  transition-all  hover:bg-teal-500 cursor-pointer">
-                Read More <AiOutlineArrowRight />
-              </button>
-            </div>
-          </div>
-
-          <div
-            style={{ boxShadow: "0px 0px 7px 7px rgba(0, 0, 0, 0.03)" }}
-            className="overflow-hidden transition-shadow duration-300 bg-white rounded "
-          >
-            <Image
-              width={1200}
-              height={100}
-              src="https://wpbingosite.com/wordpress/fuho/wp-content/uploads/2018/05/blog-4-720x484.jpg"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 mb-4">
-              <p className="mb-3 text-xs font-semibold font-sans  tracking-wide uppercase pb-4 border-b border-gray-300 ">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-teal-500 hover:text-teal-accent-700 border-r border-gray-300 pr-4"
-                  aria-label="Category"
-                  title="date"
-                >
-                  18 Jun 2021
-                </a>
-                <span className="text-gray-600 px-4">1 comments</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Visit the East"
-                className="inline-block mb-3 text-2xl font-display font-medium pt-3 leading-5 transition-colors duration-200 text-gray-700"
-              >
-                A Beautiful Sunday Morning
-              </a>
-              <p className="mb-2 text-gray-700 pb-4">
-                There seems to be natures healing medicine in fresh air. You and
-                your children will notice sweet aromas in the air.
-              </p>
-              <button className="bg-teal-300 px-4 flex items-center gap-1 py-1 rounded-sm tracking-wide text-white  transition-all  hover:bg-teal-500 cursor-pointer">
-                Read More <AiOutlineArrowRight />
-              </button>
-            </div>
-          </div>
-
-          <div
-            style={{ boxShadow: "0px 0px 7px 7px rgba(0, 0, 0, 0.03)" }}
-            className="overflow-hidden transition-shadow duration-300 bg-white rounded "
-          >
-            <Image
-              width={1200}
-              height={100}
-              src="https://medik.wpengine.com/wp-content/uploads/2019/01/blog9-1024x648.jpg"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 mb-4">
-              <p className="mb-3 text-xs font-semibold font-sans  tracking-wide uppercase pb-4 border-b border-gray-300 ">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-teal-500 hover:text-teal-accent-700 border-r border-gray-300 pr-4"
-                  aria-label="Category"
-                  title="date"
-                >
-                  5 SEP 2021
-                </a>
-                <span className="text-gray-600 px-4">2 comments</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Visit the East"
-                className="inline-block mb-3 text-2xl font-display font-medium pt-3 leading-5 transition-colors duration-200 text-gray-700"
-              >
-                Blood Pressure Machine
-              </a>
-              <p className="mb-2 text-gray-700 pb-4">
-                To measure blood pressure, your doctor uses an instrument call a
-                sphygmomanometer, which is more often referred to as a blood
-                pressure cuff.
-              </p>
-              <button className="bg-teal-300 px-4 flex items-center gap-1 py-1 rounded-sm tracking-wide text-white  transition-all  hover:bg-teal-500 cursor-pointer">
-                Read More <AiOutlineArrowRight />
-              </button>
-            </div>
-          </div>
+        <div className="grid gap-4 lg:gap-8 md:grid-cols-2 lg:grid-cols-4 ">
+          <BlogCard
+            image={
+              "https://dt-pharmify.myshopify.com/cdn/shop/articles/Blog-8.jpg?v=1690529646&width=1000"
+            }
+            title="Enhancing Emergency Preparedness"
+          />
+          <BlogCard
+            image={
+              "https://dt-pharmify.myshopify.com/cdn/shop/articles/Blog-7.jpg?v=1690529536&width=1000"
+            }
+            title="The Importance Of Patient Advocacy"
+          />
+          <BlogCard
+            image={
+              "https://dt-pharmify.myshopify.com/cdn/shop/articles/Blog-6.jpg?v=1690529427&width=1000"
+            }
+            title="Standing With Patients Beyond The Clinic"
+          />
+          <BlogCard
+            image={
+              "https://dt-pharmify.myshopify.com/cdn/shop/articles/Blog-5.jpg?v=1690529221&width=1000"
+            }
+            title="Doctors Driving Multidisciplinary Research"
+          />
         </div>
       </div>
     </div>
@@ -143,3 +43,43 @@ const Blog = () => {
 };
 
 export default Blog;
+
+const BlogCard = ({ image, title }: { image: string; title: string }) => {
+  return (
+    <div className="overflow-hidden group transition-shadow duration-300 bg-white rounded ">
+      <Image
+        width={1200}
+        height={100}
+        src={image}
+        className="object-cover w-full h-[160px]"
+        alt=""
+      />
+      <div className=" py-5 mb-4">
+        <p className="text-xs font-semibold font-sans  tracking-wide uppercase ">
+          <a
+            href="#"
+            className="transition-colors duration-200 text-teal-500 hover:text-teal-accent-700 border-r border-gray-300 pr-4"
+            aria-label="Category"
+            title="date"
+          >
+            5 SEP 2021
+          </a>
+          <span className="text-gray-600 px-4">2 comments</span>
+        </p>
+        <a
+          href="#"
+          aria-label="Category"
+          title="Visit the East"
+          className="inline-block mb-3 font-semibold pt-3 group-hover:text-primary duration-150 leading-5 text-gray-700"
+        >
+          {title}
+        </a>
+
+        <button className="flex items-center uppercase font-semibold text-sm gap-1 rounded-sm tracking-wide text-secondary  transition-all  cursor-pointer">
+          <AiOutlineArrowRight className="p-1 text-2xl bg-primary text-white rounded-full" />{" "}
+          Read More{" "}
+        </button>
+      </div>
+    </div>
+  );
+};

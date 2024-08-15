@@ -4,7 +4,7 @@ import CompanyLogo from "../NavBar/CompanyLogo";
 
 const Footer = () => {
   return (
-    <footer className="w-full text-white bg-secondary mt-5">
+    <footer className="w-full text-white bg-secondary">
       <div className="container flex flex-col flex-wrap px-5 py-16 mx-auto md:items-center lg:items-start lg:flex-row lg:flex-no-wrap">
         <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 lg:text-left">
           {/* Logo */}

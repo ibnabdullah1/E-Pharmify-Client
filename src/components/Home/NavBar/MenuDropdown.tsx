@@ -39,7 +39,7 @@ const Dropdown = () => {
             height={100}
             className="size-10 rounded-full"
           />
-          <div className="absolute -top-[1px] right-[-2px] w-2 h-2 rounded-full bg-green-500" />
+          <div className="absolute top-[3px] right-[-2px] size-3 rounded-full bg-green-500" />
         </div>
       </Menu.Button>
 

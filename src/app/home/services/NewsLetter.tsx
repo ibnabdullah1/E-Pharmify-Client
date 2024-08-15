@@ -1,7 +1,7 @@
 import { FiArrowRight } from "react-icons/fi";
 const NewsLetter = () => {
   return (
-    <div className=" bg-primary  text-slate-100 py-10">
+    <div className=" bg-primary  text-slate-100 py-16">
       <div className="text-center">
         <h1 className="text-2xl md:text-3xl mb-2 font-semibold capitalize">
           subscribe to our newsletter

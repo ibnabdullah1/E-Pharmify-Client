@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .heading {
-  @apply text-xl  lg:text-3xl mb-10 mt-5 font-bold capitalize text-secondary;
+  @apply text-2xl  md:text-4xl my-5 font-bold tracking-wide capitalize text-secondary;
 }
 .sub-heading {
   @apply text-primary text-sm uppercase w-fit bg-primary/20 px-3 py-[3px] rounded-full mb-3 max-w-[200px];

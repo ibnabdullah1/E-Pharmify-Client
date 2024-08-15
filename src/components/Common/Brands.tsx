@@ -4,7 +4,7 @@ import Image from "next/image";
 const Brands = () => {
   return (
     <div className="pt-6 pb-10">
-      <div className="text-center max-w-[400px] mx-auto">
+      <div className="text-center mx-auto">
         <h1 className="mx-auto sub-heading">brands</h1>
         <h1 className="heading">our brands</h1>
         <p>
@@ -20,7 +20,7 @@ const Brands = () => {
               width={1200}
               height={100}
               alt=""
-              className="w-20 group-hover:scale-125 transition-a"
+              className="w-20 group-hover:scale-125 duration-300"
             />
           </div>
         ))}
