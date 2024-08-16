@@ -18,13 +18,13 @@ const Navbar = () => {
   };
 
   const Links = [
-    { name: "Home", link: "/" },
-    { name: "About Us", link: "/about-us" },
-    { name: "Services", link: "/services" },
-    { name: "Products", link: "/products" },
-    { name: "Reviews", link: "/reviews" },
-    { name: "FAQs", link: "/faq" },
-    { name: "Contact Us", link: "/contact-us" },
+    { name: "Home", link: "/home" },
+    { name: "About Us", link: "/home/about-us" },
+    { name: "Services", link: "/home/services" },
+    { name: "Products", link: "/home/products" },
+    { name: "Reviews", link: "/home/reviews" },
+    { name: "FAQs", link: "/home/faq" },
+    { name: "Contact Us", link: "/home/contact-us" },
   ];
 
   return (
