@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosSecurePublic = axios.create({
-  baseURL: process.env.VITE_API_URL,
+  baseURL: "https://e-pharmify-server.vercel.app/api/v1",
 });
 
 const useAxiosPublic = () => {
