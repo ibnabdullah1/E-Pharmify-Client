@@ -76,7 +76,7 @@ const FeaturedProductCard = ({ product }: any) => {
             />
           </p>
           <Link
-            href={`products/${product?._id}`}
+            href={`/home/products/${product?._id}`}
             className="flex items-center gap-1 py-1 px-5 rounded shadow-lg bg-teal-500  text-lg text-white  duration-150  hover:bg-primary"
           >
             <MdOutlineAddShoppingCart className="text-xl" />
