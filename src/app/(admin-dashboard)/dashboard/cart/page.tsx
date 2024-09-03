@@ -1,15 +1,15 @@
 "use client";
 
+import {
+  removeFromCart,
+  updateQuantity,
+} from "@/redux/features/cart/cartSlice";
 import { RootState } from "@/redux/features/store";
 import Image from "next/image";
 import Link from "next/link";
 import { RxCross2, RxMinus, RxPlus } from "react-icons/rx";
 import { useDispatch, useSelector } from "react-redux";
 import Swal from "sweetalert2";
-import {
-  removeFromCart,
-  updateQuantity,
-} from "../../../redux/features/cart/cartSlice";
 
 const Cart = () => {
   const dispatch = useDispatch();

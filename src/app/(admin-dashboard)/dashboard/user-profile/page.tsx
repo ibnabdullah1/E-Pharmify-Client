@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { IoCameraOutline } from "react-icons/io5";
 import { useSelector } from "react-redux";
-import CoverOne from "../../../../public/images/cover-01.png";
+import CoverOne from "../../../../../public/images/cover-01.png";
 const useImageUpload = (storageKey: any) => {
   const [imageUrl, setImageUrl] = useState();
 

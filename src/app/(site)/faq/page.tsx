@@ -40,17 +40,3 @@ const FAQs = () => {
 };
 
 export default FAQs;
-
-// import SingleFaq from "./SingleFaq";
-
-// const FAQs = () => {
-//   return (
-//     <div className="max-w-4xl mx-auto py-20">
-//       {faqs.map((faq) => (
-//         <SingleFaq {...faq} key={faq.id} />
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default FAQs;

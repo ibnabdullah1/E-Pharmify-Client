@@ -29,9 +29,6 @@ const baseQueryWithRefreshToken = async (
   }
 
   if (result?.error?.status === 401) {
-    //* Send Refresh
-    console.log("Sending refresh token");
-
     const res = await fetch(
       `https://e-pharmify-server.vercel.app/api/v1/refresh-token`,
       {

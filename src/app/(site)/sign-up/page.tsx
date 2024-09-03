@@ -1,12 +1,12 @@
 "use client";
 import useAxiosPublic from "@/Hooks/useAxiosPublic";
+import { imageUpload } from "@/utils/utilis";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { TbFidgetSpinner } from "react-icons/tb";
-import { imageUpload } from "../../utils/utilis";
 
 const Register = () => {
   const [showPassword, setShowPassword] = useState(false);

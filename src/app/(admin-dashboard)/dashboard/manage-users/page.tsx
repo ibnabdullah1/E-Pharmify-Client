@@ -59,7 +59,7 @@ const AllUsers = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        console.log("Hi!", user.name);
+        // console.log("Hi!", user.name);
       }
     });
   };

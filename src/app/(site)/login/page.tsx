@@ -32,7 +32,7 @@ const LoginForm = () => {
       const res = await login(userInfo).unwrap();
       setLoading(true);
       if (res.success) {
-        router.push("/home");
+        router.push("/");
         const user = verifyToken(res?.data?.accessToken) as TUser;
         dispatch(setUser({ user, token: res.data.accessToken }));
         toast.success("Successfully logged in");
