@@ -1,7 +1,11 @@
 import { AiOutlineOrderedList } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { FaUsersGear } from "react-icons/fa6";
-import { MdAddCircle, MdOutlineManageHistory } from "react-icons/md";
+import {
+  MdAddCircle,
+  MdCategory,
+  MdOutlineManageHistory,
+} from "react-icons/md";
 import MenuItem from "./MenuItem";
 
 const AdminMenu = () => {
@@ -27,11 +31,11 @@ const AdminMenu = () => {
         label="Manage Orders"
         address="/dashboard/manage-orders"
       />
-      {/* <MenuItem
+      <MenuItem
         icon={MdCategory}
         label="Manage Categories"
         address="/dashboard/manage-categories"
-      /> */}
+      />
       <MenuItem
         icon={FaUsersGear}
         label="Manage Users"

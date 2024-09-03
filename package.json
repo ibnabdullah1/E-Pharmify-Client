@@ -1,5 +1,5 @@
 {
-  "name": "medicine-eco-client",
+  "name": "medicine-ecommerce-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -28,7 +28,6 @@
     "react-router-dom": "^6.26.0",
     "redux": "^5.0.1",
     "redux-persist": "^6.0.0",
-    "sharp": "^0.33.5",
     "sweetalert2": "^11.12.4",
     "swiper": "^11.1.9",
     "tailwind-scrollbar": "^3.1.0"

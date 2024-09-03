@@ -6,13 +6,13 @@ import Rating from "react-rating";
 const FeaturedProductCard = ({ product }: any) => {
   return (
     <div className=" border rounded group">
-      <div className="relative  w-full h-[350px]  rounded-md overflow-hidden">
+      <div className="relative  w-full h-[150px] rounded-md overflow-hidden">
         <Image
           src={product?.image}
           alt={product?.name}
           width={1200}
           height={100}
-          className="w-full h-full  object-cover group-hover:scale-125 duration-200 "
+          className="w-auto object-cover group-hover:scale-125 duration-200 "
         />
         <div className=" absolute top-3  px-4 py-1 text-sm capitalize text-white bg-primary">
           {product.stockStatus ? "In Stock" : "Stock out"}
@@ -76,7 +76,7 @@ const FeaturedProductCard = ({ product }: any) => {
             />
           </p>
           <Link
-            href={`products/${product?._id}`}
+            href={`/home/products/${product?._id}`}
             className="flex items-center gap-1 py-1 px-5 rounded shadow-lg bg-teal-500  text-lg text-white  duration-150  hover:bg-primary"
           >
             <MdOutlineAddShoppingCart className="text-xl" />

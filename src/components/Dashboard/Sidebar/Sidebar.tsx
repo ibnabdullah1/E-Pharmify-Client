@@ -27,7 +27,7 @@ const Sidebar = ({ isActive }: any) => {
       <div>
         <div className="sticky py-2 top-0 flex justify-center bg-white z-40">
           <Link
-            href="/"
+            href="/home"
             aria-label="E-Pharmacy"
             title="E-Pharmacy"
             className="inline-flex  items-center mr-8 gap-1"
@@ -55,16 +55,16 @@ const Sidebar = ({ isActive }: any) => {
             {role === "admin" && <AdminMenu />}
             {/* User Menu Items */}
             <div className="w-full h-[1px] bg-secondary/30 my-8"></div>
-            <MenuItem icon={LuHome} label="Home" address="/" />{" "}
+            <MenuItem icon={LuHome} label="Home" address="/home" />{" "}
             <MenuItem
               icon={AiFillProduct}
               label="Products"
-              address="/products"
+              address="/home/products"
             />
             <MenuItem
               icon={RiContactsLine}
               label="Contact"
-              address="/contact-us"
+              address="/home/contact-us"
             />
           </nav>
         </div>

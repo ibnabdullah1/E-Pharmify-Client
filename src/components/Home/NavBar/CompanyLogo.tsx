@@ -6,7 +6,7 @@ const CompanyLogo = () => {
   return (
     <div>
       <Link
-        href="/"
+        href="/home"
         aria-label="E-Pharmacy"
         title="E-Pharmacy"
         className="inline-flex items-center mr-8 gap-1"
